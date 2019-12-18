@@ -1,0 +1,21 @@
+example:
+  test:
+    value: api-test
+
+spring:
+#  profiles.active: dev
+  application.name: api
+  cloud:
+    config:
+      retry:
+        initial-interval: 2000
+        max-attempts: 5
+      discovery:
+        enabled: true
+        service-id: config-server
+      profile: ${spring.profiles.active}
+      label: ${spring.profiles.active}
+#      username: java
+#      password: hello
+      #name: ????
+      #fail-fast: true
