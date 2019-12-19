@@ -6,6 +6,10 @@ spring:
   profiles.active: dev
   application.name: api
   cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
     config:
       retry:
         initial-interval: 2000
