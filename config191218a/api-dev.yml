@@ -4,27 +4,27 @@ example:
 
 spring:
   profiles.active: dev
-  security:
-      user:
-        name: admin
-        password: password
+#  security:
+#      user:
+#        name: admin
+#        password: password
   cloud:
 #    bus.enabled: true
     stream:
       kafka:
         binder:
           brokers: localhost:9092
-    config:
-      username: admin
-      password: password
-      retry:
-        initial-interval: 2000
-        max-attempts: 5
-      discovery:
-        enabled: true
-        service-id: config-server
-      profile: ${spring.profiles.active}
-      label: ${spring.profiles.active}
+#    config:
+#      username: admin
+#      password: password
+#      retry:
+#        initial-interval: 2000
+#        max-attempts: 5
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#      profile: ${spring.profiles.active}
+#      label: ${spring.profiles.active}
 #      username: java
 #      password: hello
       #name: ????

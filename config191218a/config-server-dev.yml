@@ -1,8 +1,8 @@
 spring:
-  security:
-    user:
-      name: admin
-      password: password
+#  security:
+#    user:
+#      name: admin
+#      password: password
   cloud:
     bus:
 #      enabled: true
