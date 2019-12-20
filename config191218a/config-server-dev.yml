@@ -8,3 +8,7 @@
 #      kafka:
 #        binder:
 #          brokers: localhost:9092
+
+example:
+  test:
+    value: config-server-test-0aabbbccc
