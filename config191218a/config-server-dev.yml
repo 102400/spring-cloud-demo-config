@@ -1,14 +1,10 @@
-spring:
-#  security:
-#    user:
-#      name: admin
-#      password: password
-  cloud:
-    bus:
-#      enabled: true
-      trace:
-        enabled: true #开启消息跟踪 事件传播的细节
-    stream:
-      kafka:
-        binder:
-          brokers: localhost:9092
+#spring:
+##  security:
+##    user:
+##      name: admin
+##      password: password
+#  cloud:
+#    stream:
+#      kafka:
+#        binder:
+#          brokers: localhost:9092
