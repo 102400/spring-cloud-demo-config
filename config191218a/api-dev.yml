@@ -1,18 +1,18 @@
 example:
   test:
-    value: api-test
+    value: api-test-8008aaa
 
-spring:
-#  security:
-#      user:
-#        name: admin
-#        password: password
-  cloud:
-#    bus.enabled: true
-    stream:
-      kafka:
-        binder:
-          brokers: localhost:9092
+#spring:
+##  security:
+##      user:
+##        name: admin
+##        password: password
+#  cloud:
+##    bus.enabled: true
+#    stream:
+#      kafka:
+#        binder:
+#          brokers: localhost:9092
 #    config:
 #      username: admin
 #      password: password
